@@ -20,7 +20,7 @@ drive_base = DriveBase(left_motor, right_motor, wheel_diameter=54, axle_track=95
 hub.light.on(Color.RED)
 drive_base.use_gyro(True)
 
-# hub.imu.reset_heading(0)
+# hub.imu.reset_heading(0) 
 hub.imu.reset_heading(0)
 hub.light.on(Color.MAGENTA)
 
@@ -82,6 +82,8 @@ def run2():
     drive_base.straight(40)
     drive_base.turn(70)
     drive_base.straight(150)
+    back_gripper_motor.run_angle(120,100)
+    back_gripper_motor.run_angle(-1000,100)
     drive_base.straight(-30)
     drive_base.turn(-25)
     drive_base.straight(390)
