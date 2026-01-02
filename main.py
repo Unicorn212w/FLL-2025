@@ -1,3 +1,4 @@
+
 from pybricks.hubs import PrimeHub
 from pybricks.pupdevices import Motor, ColorSensor, UltrasonicSensor
 from pybricks.parameters import Button, Color, Direction, Port, Side, Stop, Icon
@@ -79,13 +80,13 @@ def run2():
     drive_base.straight(-70)
     drive_base.turn(-102)
     drive_base.straight(40)
-    drive_base.turn(74)
+    drive_base.turn(70)
     drive_base.straight(150)
     drive_base.straight(-30)
-    drive_base.turn(-40)
+    drive_base.turn(-25)
     drive_base.straight(390)
-    drive_base.turn(125)
-    drive_base.straight(290)
+    drive_base.turn(115)
+    drive_base.straight(280)
 
     drive_base.use_gyro(False)
     drive_base.turn(-45)
@@ -97,9 +98,9 @@ def run2():
     gripper_motor.run_angle(speed=1000, rotation_angle=-1500)
 
     drive_base.turn(19)
-    drive_base.straight(-146)
-    drive_base.turn(70)
-    drive_base.straight(850)
+    drive_base.straight(-140)
+    drive_base.turn(83)
+    drive_base.straight(900)
 
     drive_base.stop()
     runindex += 1
