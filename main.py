@@ -85,7 +85,7 @@ def run2():
     drive_base.straight(-30)
     drive_base.turn(-25)
     drive_base.straight(390)
-    drive_base.turn(115)
+    drive_base.turn(120)
     drive_base.straight(280)
 
     drive_base.use_gyro(False)
@@ -99,7 +99,7 @@ def run2():
 
     drive_base.turn(19)
     drive_base.straight(-140)
-    drive_base.turn(83)
+    drive_base.turn(82)
     drive_base.straight(900)
 
     drive_base.stop()
