@@ -207,14 +207,14 @@ def run6():
     drive_base.settings(900, 900)
 
     drive_base.straight(200)
-    drive_base.turn(-47)
+    drive_base.turn(-48)
     drive_base.straight(240)
     drive_base.turn(-33)
     drive_base.straight(-49)
     drive_base.turn(-35)
     drive_base.straight(315)
-    drive_base.turn(90)
-    drive_base.straight(60)
+    drive_base.turn(87.5)
+    drive_base.straight(68)
 
     back_gripper_motor.run_angle(40, -20)
     drive_base.straight(-200)
@@ -229,11 +229,10 @@ def run6():
     drive_base.turn(-108)
 
     drive_base.use_gyro(False)
-    drive_base.straight(100)
-    gripper_motor.run_angle(400, 220)
-    drive_base.turn(-38)
+    drive_base.straight(80)
+    gripper_motor.run_angle(400, 200)
+    drive_base.turn(-42)
     drive_base.straight(-150)
-    drive_base.straight(90)
     drive_base.turn(45)
     gripper_motor.run_angle(speed=200, rotation_angle=-100)
 
